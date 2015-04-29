@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <%= metamagic %>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+  <meta name="google-site-verification" content="cJf5CZ2me2KNhkp0dAyi792Fd_TjuswhCoqGAXH2BUs" />
+
+  <%= csrf_meta_tags %>
+</head>
+<body class="container">
+
+
+<%= render 'shared/navigation' %>
+<section>
+<%= yield %>
+</section>
+<%= render 'shared/footer'%>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<meta name="google-site-verification" content="yDQpZUPWxYqSerr3_HH-RRVXMlnpz4GQN0C2pUtaIn4" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+</body>
+</html>
