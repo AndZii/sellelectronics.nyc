@@ -59330,3 +59330,45 @@ Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-05-15 13:47:0
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-15 13:47:01 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 14:48:55 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (2.9ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 33ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-05-31 14:48:55 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-31 14:48:55 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 16:15:12 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+  Rendered shared/_navigation.html.erb (0.0ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 37ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-05-31 16:15:12 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-31 16:15:12 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 16:15:27 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+  Rendered shared/_navigation.html.erb (0.0ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-05-31 16:15:27 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-31 16:15:27 -0400
